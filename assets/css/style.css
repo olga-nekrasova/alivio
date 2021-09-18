@@ -1,0 +1,469 @@
+@font-face {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Georgia'), url('/assets/fonts/Georgia-PersonalUse.woff') format('woff');
+}
+
+body {
+    font-family: Lato, serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1106px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+
+.menu {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu_a {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button_sign_in {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    background: none;
+    border: none;
+    margin-right: 35px;
+}
+
+.button_start {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 50px;
+    top: 0.35%;
+    bottom: 98.65%;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.content {
+    background: url("/assets/img/radu-florin-CwTBt6jyagQ-unsplash 1.png") no-repeat;
+    height: 895px;
+}
+
+.text_h1 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+    margin: 0;
+    width: 440px;
+    padding-top: 175px;
+}
+
+.text_p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+    margin: 0;
+    width: 420px;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+
+.button_find {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 0;
+}
+
+.container_stress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stress_p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+    padding-top: 146px;
+    margin: 0;
+    width: 142px;
+}
+
+.stress_h1 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+    margin: 0;
+    width: 570px;
+    box-sizing: content-box;
+    padding: 0;
+}
+
+.container_text_stress {
+    box-sizing: content-box;
+    width: 487px;
+}
+
+.text_stress_p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column_1 {
+    position: relative;
+    padding-top: 75px;
+    width: 300px;
+}
+
+.content_img_01 {
+    position: absolute;
+    top: 52px;
+}
+
+.content_h1_01 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.content_p_01 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    padding-top: 55px;
+}
+
+.content_img_001 {
+    border-radius: 12px;
+    padding-top: 60px;
+    width: 300px;
+}
+
+.column_2 {
+    position: relative;
+    padding-top: 361px;
+    width: 300px;
+}
+
+.content_img_02 {
+    position: absolute;
+    top: 339px;
+}
+
+.content_h1_02 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.content_p_02 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    padding-top: 55px;
+}
+
+.contant_img_002 {
+    border-radius: 12px;
+    padding-top: 37px;
+    width: 300px;
+}
+
+.column_3 {
+    position: relative;
+    padding-top: 180px;
+    width: 300px;
+}
+
+.content_stress {
+    padding-bottom: 51px;
+}
+
+.content_img_03 {
+    position: absolute;
+}
+
+.content_h1_03 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    padding-right: 71px;
+    padding-top: 28px;
+}
+
+.content_p_03 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    padding-top: 46px;
+}
+
+.content_img_003 {
+    border-radius: 12px;
+    padding-top: 37px;
+    width: 300px;
+}
+
+.success_story {
+    background: #245852;
+}
+
+.content_section_2 {
+    height: 922px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1106px;
+    align-items: center;
+}
+
+.section_2_text_h1 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    color: #FFFFFF;
+    width: 472px;
+    margin: 0;
+}
+
+.section_2_text_p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #FFFFFF;
+    width: 554px;
+    margin: 0;
+    padding-top: 33px;
+    padding-bottom: 57px;
+}
+
+.button_lets {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 240px;
+    height: 65px;
+    margin: 0;
+}
+
+.section_2 {
+    background: #245852;
+    height: 922px;
+}
+
+.img_Rectangle {
+    border-radius: 16.3326px;
+    width: 495.84px;
+    height: 316.11px;
+}
+
+.container_our_product {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1106px;
+    align-items: center;
+    height: 936px;
+}
+
+.content_girl {
+    background: rgba(1, 153, 109, 0.2);
+    width: 517.46px;
+    height: 572.46px;
+    border-radius: 18.1125px;
+    display: flex;
+    justify-content: center;
+}
+
+.column_our_product {
+    height: 594px;
+    width: 497px;
+}
+
+.our_product_h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #424242;
+    margin: 0;
+}
+
+.our_product_h1 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.our_product_p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.our_product_button {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0;
+    width: 227px;
+    height: 65px;
+}
+
+.alivio {
+    height: 654px;
+    background: #245852;
+    padding-top: 95px;
+}
+
+.alivio_text {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1106px;
+    align-items: center;
+}
+
+.alivio_p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
