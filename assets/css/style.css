@@ -2,7 +2,7 @@
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
-    src: local('Georgia'), url('./assets/fonts/Georgia-PersonalUse.woff') format('woff');
+    src: local('Georgia'), url('../fonts/Georgia-PersonalUse.woff') format('woff');
 }
 
 body {
@@ -91,7 +91,7 @@ body {
 }
 
 .content {
-    background: url("./assets/img/radu-florin-CwTBt6jyagQ-unsplash 1.png") no-repeat;
+    background: url("../img/radu-florin-CwTBt6jyagQ-unsplash 1.png") no-repeat;
     height: 895px;
 }
 
